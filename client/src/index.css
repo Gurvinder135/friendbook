@@ -1,0 +1,18 @@
+* {
+  background-color: #f1f8e9;
+}
+.avatar > span,
+.avatar > p,
+.secondary-content > .material-icons {
+  background-color: white !important;
+}
+.color {
+  color: #616161 !important;
+}
+.edit {
+  right: 60px !important;
+  top: 21.7px !important;
+}
+.secondary-content {
+  top: 21px !important;
+}

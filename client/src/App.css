@@ -1,0 +1,693 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  background-color: #f0f2f5;
+}
+.homepage {
+  margin-top: 15vh;
+  margin-left: 15vw;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 40px;
+}
+
+.homepage_logo {
+  color: #2775db;
+  font-size: 4vw;
+  font-weight: 600;
+  font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+  letter-spacing: 0.4px;
+  margin: 3vw 0px 1vw;
+}
+
+.homepage_text {
+  font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+  font-size: 28px;
+  font-weight: normal;
+  line-height: 32px;
+  max-width: 500px;
+  width: auto;
+}
+
+.login {
+  padding: 20px;
+  width: 25vw;
+  border-radius: 10px !important;
+}
+
+.login_button {
+  width: 100%;
+  margin: 10px;
+  height: 6.5vh;
+  min-height: 32px;
+}
+.login_button1 {
+  width: 90%;
+  display: block !important;
+  margin: auto !important;
+  height: 6.5vh;
+  min-height: 32px;
+
+  background-color: #ff9800 !important;
+}
+.register_button {
+  display: block !important;
+  width: 80%;
+  height: 6.5vh;
+  margin: auto !important;
+  min-height: 32px;
+}
+
+.login_input {
+  width: 100% !important;
+  margin-bottom: 1vw !important;
+
+  color: red !important;
+}
+
+hr {
+  color: #e7e9ec75;
+  margin: 20px;
+}
+.profile {
+  position: relative;
+
+  top: 40px;
+}
+
+.profileHeading {
+  color: #67788f;
+  font-size: 4vw;
+  font-weight: 600;
+  font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+  letter-spacing: 0.4px;
+  text-align: center;
+  margin-bottom: 2.5vw;
+}
+.profileContent {
+  display: block;
+  margin: auto;
+}
+.profileContent > ul {
+  margin: auto;
+  border-radius: 30px !important;
+  width: 50vw !important;
+  max-width: 600px !important;
+}
+
+li.MuiDivider-root {
+  width: 60%;
+}
+
+.logo {
+  background-color: #1877f2;
+  color: white;
+  text-align: center;
+  border-radius: 100px;
+  line-height: 40px;
+  width: 40px !important;
+  height: 40px !important;
+  font-size: 25px;
+  font-weight: 400;
+  font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+}
+li.MuiListItem-root:nth-child(1) > div:nth-child(1) {
+  margin-top: 10px !important;
+}
+
+.css-10hburv-MuiTypography-root {
+  margin: 10px;
+}
+
+.commentForm {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 40vw;
+  height: auto;
+  margin: 1vw auto;
+  border-radius: 30px;
+  padding: 0px 16px;
+  box-shadow: 0px 0px 9px #8080808f;
+}
+.commentInput {
+  width: 70%;
+  height: auto;
+  border-radius: 35px;
+  margin: 2vw auto 0.5vw;
+  padding: 5px 15px 5px 16px;
+  background-color: #f0f2f5;
+  border-color: transparent;
+  color: rgba(0, 0, 0, 0.849);
+  font-size: 20px;
+  font-weight: 400;
+  font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+}
+.commentButton {
+  margin: 0.5vw auto;
+  width: auto;
+  height: auto;
+  border-radius: 20px;
+  border-color: transparent;
+  background-color: rgb(60, 138, 240);
+  color: white;
+  font-size: 22px;
+  font-weight: 400;
+  font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.commentHead {
+  display: flex;
+  margin: 13px 10px;
+}
+.commentLogo {
+  background-color: #1877f2;
+  color: white;
+  text-align: center;
+  border-radius: 100px;
+  line-height: 30px;
+  width: 30px;
+  height: 30px;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+  margin: 0px 10px 0px 5px;
+}
+
+.commentTitle {
+  color: rgba(5, 5, 5, 0.98);
+  cursor: pointer;
+  direction: ltr;
+  font-family: Segoe UI Historic, Segoe UI, Helvetica, Arial, sans-serif;
+  font-size: 14.5px;
+  font-weight: 600;
+  line-height: 30px;
+  list-style-image: none;
+  list-style-position: outside;
+  list-style-type: none;
+  overflow-wrap: break-word;
+  text-align: left;
+  word-break: break-word;
+}
+.commentText {
+  color: rgb(5, 5, 5);
+  direction: ltr;
+  font-family: Segoe UI Historic, Segoe UI, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  overflow-wrap: break-word;
+  text-align: start;
+  white-space: pre-wrap;
+  word-break: break-word;
+  margin-left: 10px;
+}
+.commentForm > hr {
+  margin: 15px;
+}
+
+.commentHead.new {
+  margin-top: 0px;
+  margin-left: 18px;
+}
+
+.commentLogo.new {
+  line-height: 32px;
+  width: 32px;
+  height: 32px;
+  font-size: 20px;
+  margin-right: 10px;
+}
+.commentBox {
+  margin-left: 4px;
+  background-color: #f0f2f5;
+  padding: 10px 15px;
+  border-radius: 20px;
+  height: auto;
+  width: 72%;
+}
+.commentTitle.new {
+  font-size: 15px;
+  color: rgba(5, 5, 5, 0.863);
+  line-height: 17px;
+}
+.commentMini {
+  margin-top: 5px;
+}
+.commentInput.new {
+  width: 60%;
+  height: auto;
+
+  margin: 1vw auto 0.5vw;
+  padding: 5px 15px 5px 16px;
+
+  color: rgba(0, 0, 0, 0.747);
+  font-size: 17px;
+}
+
+.commentButton.new {
+  margin: 0.2vw auto 0.8vw;
+
+  border-radius: 20px;
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 900px) {
+  .commentForm,
+  .profile {
+    width: 70%;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .commentForm,
+  .profile {
+    width: 80%;
+  }
+}
+
+/* profile css */
+.profile {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 40vw;
+  height: auto;
+  margin: 1vw auto;
+  border-radius: 30px;
+  padding: 0px 16px;
+  box-shadow: 0px 0px 9px #80808066;
+}
+
+.profileHead {
+  display: flex;
+  background-color: #f0f2f5;
+  width: 95%;
+  height: 15%;
+  margin: 1vw auto;
+  border-radius: 30px;
+  padding: 0px 16px;
+  flex-direction: column;
+  box-shadow: 0px 0px 5px #8080807a;
+}
+.profile > hr {
+  color: #acadae3d;
+
+  margin: 51px auto -6px;
+  width: 72%;
+}
+.profileLogo {
+  text-align: center;
+  border-radius: 47vw;
+  line-height: 12vw;
+  width: 11vw;
+  height: 11vw;
+  font-size: 4vw;
+  font-weight: 400;
+  font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+
+  box-shadow: 3px 3px 7px #00000070;
+  margin: 18vh auto 3px;
+  background-color: white;
+  color: #00000061;
+}
+.profileUsername {
+  font-size: 2vw;
+  font-weight: 500;
+  font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+  margin: auto;
+  text-shadow: 3px 3px 7px #00000061;
+  color: #000000b5;
+}
+
+.profileName {
+  margin: 20px auto 5px;
+  font-size: 1.5vw;
+  font-weight: 500;
+  font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+  color: rgba(0, 0, 0, 0.767);
+}
+.searchbox > .cursor {
+  z-index: 1;
+}
+.cursor {
+  cursor: pointer;
+  pointer-events: all !important;
+}
+.removeIcon {
+  display: flex;
+  justify-content: flex-end;
+  flex-grow: 4;
+  align-items: end;
+}
+.removeIcon > svg {
+  color: #ec2323;
+  cursor: pointer;
+}
+.moreicon {
+  display: none !important;
+}
+.searchicon {
+  display: none !important;
+}
+.sideBar {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  height: 50vh;
+  width: auto;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 5px -3px,
+    rgba(0, 0, 0, 0.14) 0px 8px 10px 1px, rgba(0, 0, 0, 0.12) 0px 3px 14px 2px;
+  background-color: white;
+  font-family: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol";
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+  transition: all 0.3s linear 0.01s;
+}
+.iconbox {
+  width: 50px;
+  padding-left: 23px;
+}
+.iconbox > svg:hover {
+  background-color: rgb(65, 60, 60);
+  transform: scale(1.1);
+  border-radius: 50px;
+  color: white;
+  padding: 2px;
+}
+.iconbox > svg {
+  cursor: pointer;
+}
+.sidebarbackground {
+  background-color: #e7ebf0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  transition: all 0.3s linear 0.01s;
+  z-index: 1;
+}
+.translate {
+  translate: 90px;
+}
+.transparent {
+  background-color: transparent;
+  display: none;
+}
+.list {
+  width: fit-content;
+  padding: 5px;
+  height: 100vh;
+  margin: auto;
+}
+.listHead {
+  background-color: white;
+  display: flex;
+  gap: 10px;
+  width: 40vw;
+  padding: 20px 15px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 9px #80808044;
+  font-family: Segoe UI Historic, Segoe UI, Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  line-height: 16.0833px;
+  transition: 0.02s linear 0.01s;
+  margin-top: 16px;
+}
+
+.listHead:hover {
+  box-shadow: 1px 1px 1px gray;
+  transform: scale(1.01);
+}
+.listLogo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  background-color: #1877f2;
+  text-align: center;
+  color: white;
+  line-height: 44px;
+  font-size: 30px;
+  font-weight: 1000;
+  text-shadow: 3px 3px 7px #00000061;
+  box-shadow: 2px 2px 14px #00000082;
+}
+.listName {
+  display: flex;
+  flex-direction: column;
+  margin-left: 13px;
+}
+.listFname {
+  font-family: Segoe UI Historic, Segoe UI, Helvetica, Arial, sans-serif;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+.listUname {
+  margin: 5px auto;
+  font-size: 17px;
+  font-weight: 500;
+  font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+  color: rgba(0, 0, 0, 0.767);
+}
+.listIcon {
+  flex-grow: 4;
+  position: relative;
+}
+.listicon {
+  height: 45px;
+  width: 45px;
+  border-radius: 45px;
+  background-color: rgb(228, 230, 235);
+  position: absolute;
+  right: 10px;
+}
+.listicon > svg {
+  position: absolute;
+  top: 5px;
+  right: 4px;
+  font-size: 36px !important;
+}
+.confirm {
+  width: 164px;
+  height: 40px;
+  background-color: red;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 40px;
+  left: -112px;
+  position: absolute;
+  top: 1px;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+  color: white;
+  padding: 2px;
+  box-shadow: 3px 3px 4px #808080d1;
+  cursor: pointer;
+}
+.confirm:hover {
+  transform: scale(1.01);
+}
+
+.likeBox {
+  display: flex;
+  width: 95%;
+  margin: 15px auto 0px;
+  justify-content: space-between;
+}
+.likeBox2 {
+  margin: auto;
+  display: flex;
+  width: 70%;
+  justify-content: space-between;
+}
+.like {
+  display: flex;
+  width: 36px;
+  justify-content: space-between;
+  align-items: center;
+  color: rgb(33, 37, 41);
+  cursor: auto;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  cursor: pointer;
+}
+.like > svg {
+  background-color: #4169e1;
+  border-radius: 50px;
+  color: white;
+  width: 14px !important;
+  height: 14px !important;
+  padding: 5px;
+}
+.commentBox1 {
+  color: rgb(33, 37, 41);
+
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  cursor: pointer;
+}
+.colorBlue {
+  color: #4169e1;
+}
+.like2 {
+  display: flex;
+  width: 52px;
+  justify-content: space-between;
+  align-items: center;
+  color: rgb(128, 128, 128);
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  justify-content: center;
+  line-height: 24px;
+}
+.commentBox2 {
+  display: flex;
+  width: 90px;
+
+  color: rgb(128, 128, 128);
+  cursor: pointer;
+  display: flex;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  justify-content: center;
+}
+.likelistCont {
+  width: 100%;
+  height: 100vh;
+  background-color: #f0f2f5;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 2;
+}
+.likelist {
+  position: fixed;
+  width: 40%;
+  top: 20vh;
+  left: 30vw;
+  border-radius: 20px;
+  background-color: white;
+  padding: 8px 20px;
+}
+.likelist > svg {
+  position: absolute !important;
+  right: 2vw;
+  top: 1vh;
+  z-index: 3;
+  cursor: pointer;
+}
+
+.logoLike {
+  background-color: #1877f2;
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  border-radius: 20px;
+  text-align: center;
+  color: white;
+  line-height: 23px;
+}
+.likelist1 {
+  display: flex;
+  gap: 12px;
+  margin-top: 5px;
+}
+.loading {
+  /* margin: auto;
+  display: block !important; */
+  position: sticky !important;
+  left: 50% !important;
+  top: 5%;
+  z-index: 50;
+  color: black !important;
+}
+
+@media only screen and (max-width: 900px) {
+  .commentForm,
+  .profile {
+    width: 70%;
+  }
+  .profileName,
+  .profileUsername {
+    font-size: 4vw;
+  }
+  .listHead {
+    width: 70vw;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .moreicon {
+    display: inline-block !important;
+  }
+  .moreiconmain {
+    display: none !important;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .commentForm,
+  .profile {
+    width: 80%;
+  }
+  .profileName,
+  .profileUsername {
+    font-size: 3.5vw;
+  }
+  .listHead {
+    width: 87vw;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .searchicon {
+    display: inline-block !important;
+    margin-left: 20px !important;
+  }
+  .searchbox {
+    display: none !important;
+  }
+  .listFname {
+    font-size: 15px;
+  }
+  .listUname {
+    font-size: 14px;
+  }
+  .confirm {
+    width: 130px;
+    height: 39px;
+    line-height: 38px;
+    left: -72px;
+  }
+}
+.searchMini {
+  background-color: white !important;
+  display: block !important;
+  color: black !important;
+  position: absolute !important;
+  z-index: 1 !important;
+  left: 0px;
+  top: 0px;
+  height: 40px;
+}
+.close {
+  top: 7px;
+  left: 258px;
+  position: absolute;
+  color: #151414;
+  border-radius: 100px;
+  background-color: white;
+}
