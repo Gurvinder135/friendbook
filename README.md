@@ -14,4 +14,4 @@ server folder contains node js files, use command "npm install" to install depen
 
 visit following link to see live working of project:
 
-https://hopeful-keller-6e4863.netlify.app/login
+https://myfriendbook.netlify.app/
